@@ -17,6 +17,17 @@ object bumblebee {
         if (transformado){
             return 15
         }
-        return 30
-    } 
+        else{
+            return 30
+        }
+    }    
+}
+object paqueteDeLadrillos {
+    var cantLadrillos = 0
+    method ladrillo() = 2
+    method cantLadrillos() = cantLadrillos * self.ladrillo()
+    method peso()= self.cantLadrillos()
+    method niveDePeligro()= 2 
+
+
 }

@@ -31,4 +31,5 @@ object camion {
     method puedeCircularEnRuta(nivelDePeligro) = (not self.excedePesoMaximo()) and ( not self.algunaCosaCargadaMasPeligrosaQue(nivelDePeligro))
 
 
+
 }
